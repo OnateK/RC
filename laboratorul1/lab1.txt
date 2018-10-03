@@ -1,0 +1,33 @@
+Instalarea Putty sau a unei distributii Linux pe o masina virtuala
+Descarcarea utilitarului Putty: https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+
+Conectarea la serverul facultatii cu Putty:
+server fenrir.info.uaic.ro, port 22, connection type SSH
+
+Conectarea la serverul facultatii prin terminal (MacOs, Linux):
+ssh username@fenrir.info.uaic.ro
+
+Descarcarea Oracle VirtualBox: https://www.virtualbox.org/
+
+Descarcarea Ubuntu 18.04: https://www.ubuntu.com/download/desktop
+
+Partea 1.  Sisteme unix, comenzi bash
+
+Sa se afiseze continutul directorului curent in ordine dupa data modificarii/crearii.
+Afisati toate fisierele din directorul curent de forma a*.*
+Dati drepturi asupra unui director ales care sa asigure: user=rwx; grup=r;others=nimic, folosind notatia in octal si pe cea simbolica.
+ Folosind stat,grep,cut afisati inodul unui fisier.
+ Ce va afisa linia: echo `who|cut -c1-9|sort|uniq` >> y ? 
+ Sa se afiseze toti utilizatorii care au numele conturilor terminate in a.
+ Sa se afiseze comanda care testeaza daca sunt deschise cel putin 5 sesiuni de lucru si in caz afirmativ, sa se trimita un mail cu subiectul "Sesiuni".
+ Sa se gaseasca toate fisierele din sistem care au extensia .c
+
+
+Partea 2. Lucru cu fisiere (Linux, Windows)
+
+Sa se scrie un program care simuleaza comanda tac.
+Sa se scrie un program care simuleaza comanda grep.
+Sa se scrie un program care simuleaza comanda find.(recursiv).
+Sa se scrie un program care primeste ca argument un fisier sau director si specifica care este numele acestuia si cand a fost ultima data modificat.
+Folosind structura /etc/passwd sa se afiseze cine este utilizatorul care ruleaza acest program si ce shell foloseste.
+
