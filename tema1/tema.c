@@ -16,11 +16,11 @@ int main(){
 	printf("Enter command: ");
 	scanf("%s", command);
 	if(strcmp(command,"quit")==0){
-	printf("S-a introdus comanda %s \n",command);
+	printf("The command  %s  was executed successfully.\n",command);
 	quit=0;
 	}
 	else
-	printf("comanda gresita.Reintroduceti comanda \n");
+	printf("The command  %s  is not a valid one.Please try again.\n",command);
 	}
 return 0;
 }
